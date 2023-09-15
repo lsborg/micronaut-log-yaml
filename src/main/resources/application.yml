@@ -1,0 +1,6 @@
+micronaut:
+  application:
+    name: log-yaml
+logger:
+  levels:
+    com.example.LogYamlSpec: DEBUG

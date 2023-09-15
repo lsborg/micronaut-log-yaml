@@ -17,7 +17,7 @@ class LogYamlSpec extends Specification {
     static final Logger logger = LoggerFactory.getLogger(LogYamlSpec.class)
 
     void 'test it works'() {
-        logger.info('log yaml spec')
+        logger.debug('log yaml spec')
 
         expect:
         application.running
